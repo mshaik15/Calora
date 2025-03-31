@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', Helvetica;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(140, 198, 255, 0.25);
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 20rem;
+  color: black;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 439px;
+  padding: 2rem;
+  background-color: rgb(255, 199, 168, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+}
+
+.form-group input {
+  width: 100%;
+  height: 50px;
+  padding: 0 1rem;
+  background-color: rgba(212, 165, 255, 0.3);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  width: 100%;
+  max-width: 236px;
+  height: 50px;
+  background-color: rgba(212, 165, 255, 0.3);
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgba(212, 165, 255, 0.4);
+}
+
+.register-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 439px;
+}
+
+.register-section p {
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+}
+
+.register-section .button {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: clamp(36px, 10vw, 250px);
+  }
+  .subtitle, .form-group label, footer p {
+    font-size: 0.8rem;
+  }
+}
