@@ -1,9 +1,9 @@
-# Calora (formerly Healthbyte)
+# Calora
 
 ## Overview
 Calora is a full-stack calorie-tracking application designed to provide efficient and secure user data management. It utilizes **in-memory caching** to reduce redundant API calls, **JWT authentication** for secure user sessions, and a **React frontend** that interacts seamlessly with a Django REST API backend.
 <br/>
-(A practice web app to develop skills in Django and ReactJS, The information given is not accurate at all!!)
+**(A practice web app to develop skills in Django and ReactJS, The information given is not accurate at all)**
 
 ## Video Demonstration
 For a walkthrough of how Calora works, check out the video below:
